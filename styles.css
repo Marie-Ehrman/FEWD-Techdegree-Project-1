@@ -8,8 +8,8 @@ body {
   padding: 0;
   text-align: center;
   font-family: 'Poppins', sans-serif;
-  color: #222;
-  background: #d3e5f0;
+  color: rgb(106, 106, 106);
+  background: #d6e9f5;
 }
 /* Link Styles */
 
@@ -25,7 +25,7 @@ a:hover {
 
 .main-nav {
   width: 100%;
-  background: #c6deed;
+  background: #d6e9f5;
   min-height: 30px;
   padding: 10px;
   position: fixed;
@@ -70,11 +70,12 @@ header .profile-image {
   width: 150px;
   height: 150px;
   border-radius: 50%;
-  border: 3px solid white;
+  border: 3px solid black;
   transition: all .5s;
 }
 header .profile-image:hover {
   transform: scale(1.2) rotate(5deg);
+  opacity: 0;
 }
 .tag {
   background-color: #efefef;
@@ -84,9 +85,14 @@ header .profile-image:hover {
   display: table;
   margin: 10px auto;
 } 
+
+.tag:hover {
+  opacity: 0;
+}
+
 .location {
-  background-color: #222;
-  color: yellow;
+  background-color: #a8bbc7;
+  color: #efefef;
 }
 .card {
   margin: 30px;
@@ -99,7 +105,7 @@ header .profile-image:hover {
   transition: all .5s;
 }
 .card:hover {
-  border-color: #ff99ff;
+  border-color: #ac8eac;
 }
 
 ul.skills {
@@ -136,14 +142,20 @@ ul.skills {
 .playing-list li {
   border-radius: 6px;
   display: flex;
-  background: #31708E;
+  background: #8FC1E3;
   color: white;
   padding: 5px 10px;
   margin: 2px;
 }
 
 .playing-list li:nth-child(odd) {
-  background: #8FC1E3;
+  background: #31708E;
+
+}
+
+.li-images {
+  height: 20px;
+  margin-left: 10px;
 }
 
 footer {
@@ -192,6 +204,7 @@ a.social:hover {
 .clearfix {
   clear: both;
 }
+
 
 /* Styles for larger screens */
 @media screen and (min-width: 720px) {
