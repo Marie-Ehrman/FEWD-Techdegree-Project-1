@@ -7,9 +7,9 @@ body {
   margin: 0;
   padding: 0;
   text-align: center;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Poppins', sans-serif;
   color: #222;
-  background: #f7f5f0;
+  background: #d3e5f0;
 }
 /* Link Styles */
 
@@ -25,7 +25,7 @@ a:hover {
 
 .main-nav {
   width: 100%;
-  background: black;
+  background: #c6deed;
   min-height: 30px;
   padding: 10px;
   position: fixed;
@@ -43,8 +43,8 @@ a:hover {
 .nav .name {
     display: block;
     margin-right: auto;
-    color: white;
-}
+    color: #999;
+  }
 .nav li {
   padding: 5px 10px 10px 10px;
 }
@@ -57,7 +57,7 @@ a:hover {
 
 header {
   text-align: center;
-  background: url('images/portland.jpg') no-repeat top center ;
+  background: url('images/MtHood4.JPG') no-repeat top center ;
   background-size: cover;
   overflow: hidden;
   padding-top: 60px;
@@ -110,14 +110,40 @@ ul.skills {
 .skills li {
   border-radius: 6px;
   display: inline-block;
-  background: #ff9904;
+  background: #31708E;
   color: white;
   padding: 5px 10px;
   margin: 2px;
 }
 
 .skills li:nth-child(odd) {
-  background: #0399ff;
+  background: #8FC1E3;
+}
+
+.watching-list li {
+  border-radius: 6px;
+  display: flex;
+  background: #31708E;
+  color: white;
+  padding: 5px 10px;
+  margin: 2px;
+}
+
+.watching-list li:nth-child(odd) {
+  background: #8FC1E3;
+}
+
+.playing-list li {
+  border-radius: 6px;
+  display: flex;
+  background: #31708E;
+  color: white;
+  padding: 5px 10px;
+  margin: 2px;
+}
+
+.playing-list li:nth-child(odd) {
+  background: #8FC1E3;
 }
 
 footer {
